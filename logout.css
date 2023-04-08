@@ -1,0 +1,91 @@
+body{
+    background-image:url(./dark-gray-wall-with-wooden-plank-product-background.jpg);
+    background-size: cover;
+
+   
+}
+
+input{
+  border-radius: 25px;
+  border: 2px solid rgb(0, 0, 0);
+  padding: 20px; 
+  width: 200px;
+  height: 8px;   
+}
+
+
+#div{ 
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 22px;
+  color: rgb(32, 11, 11);
+  margin-top: 30px;
+  background-color: rgb(187, 187, 187);
+  width: 400px;
+  justify-content: center;
+  border: grey 4px solid;
+  border-radius: 10px; 
+  margin: auto;
+  text-align: center;
+  vertical-align: middle;
+  margin-top: 100px;
+  height: 300px;
+  position: relative;
+
+
+    
+    
+
+}
+
+ 
+
+
+
+
+
+
+  h2{
+    color: rgb(137, 136, 136);
+    margin-top: 70px;
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
+  }
+
+
+
+  button{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border: none;
+    width: 100px;
+    height: 20px;
+    border-radius: 50px;
+    font-size: 20px;
+  }
+
+ 
+  #img{
+    display: inline-block;
+    vertical-align: middle;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: 100px;
+  }
+
+  #img2{
+    align-items: right;
+    text-align:end;
+    vertical-align: middle;
+    position: absolute;
+    right: 5%;
+    top: 25%;
+
+  }
+
+  #inside{
+    position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  }

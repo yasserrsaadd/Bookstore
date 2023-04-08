@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+body {   
+  
+  
+  
+  
+  
+  
+  background: linear-gradient(to right, #000000 0%, #0016a7 100%);
+  overflow-x: hidden; font-family: roboto; -webkit-font-smoothing: antialiased; margin: 0;}
+.flex { display: -webkit-flex; display: flex; -webkit-flex-direction: row;  flex-direction: row; -webkit-justify-content: flex-start; justify-content: flex-start;}
+    
+
+/* Add a black background color to the top navigation */
+.topnav {
+  overflow: hidden;
+  justify-content: space-between;
+  background-color: rgb(138, 3, 3);
+  text-align: center;
+  text-align: center;
+  color: white;
+  font-size: 100px;
+  line-height: 1px;
+
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  color: #f2f2f2;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 21px;
+  position: relative;
+  right: 100px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #816d6d;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+
+
+#h1{
+  font-family: 'Antonio', sans-serif;
+  font-family: 'Climate Crisis', cursive;
+  font-family: 'Indie Flower', cursive;
+  font-size: 40px;
+  color: rgb(166, 166, 166);
+  text-align: start;
+  margin-left: 25px;
+  float: left;
+  
+}
+
+   
+   #img{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    
+   }
+
+   #info{
+    margin-top: 20px;
+    color: white;
+    margin-left: 20px;
+    
+   }
+
+   #h3{
+    margin-left: 48px;
+    margin-bottom: 100px;
+   }
+
+   #me{
+    color: white;
+    font-size: 16px;
+    margin-top: 80px;
+    margin-left: 20px;
+    font-size: 20px;
+   }
+   .info{
+    margin-left: 35px;
+   }
+   h2{
+    margin-left: 15px;
+   }
+
+   div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 250px;
+    
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+
+
+  #gallery{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 90px;
+    margin-right: 80px;
+  }
+
+  #logout{
+    float: right;
+    margin-top: 12px;
+    position: relative;
+    right: 30px;
+  
+  }
+  h3{
+    color: rgb(192, 192, 192);
+  }
